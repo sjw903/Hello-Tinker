@@ -124,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        Log.e(TAG, "i am on onResume");
-//        Log.e(TAG, "i am on patch onResume");
+//        Log.e(TAG, "i am on onResume");
+        Log.e(TAG, "i am on patch onResume");
 
         super.onResume();
         Utils.setBackground(false);
